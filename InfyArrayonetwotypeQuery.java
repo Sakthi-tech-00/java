@@ -31,7 +31,7 @@ public class InfyArrayonetwotypeQuery {
 
             }
 
-            System.out.println("Total sum"+totsum);
+            System.out.println("Total sum => "+totsum);
 
 
 
