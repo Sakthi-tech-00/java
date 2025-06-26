@@ -8,9 +8,11 @@ public class InfyArrayonetwotypeQuery {
             int n=sk.nextInt();
             int []A=new int[n];
             for(int i=0;i<n;i++) A[i]=sk.nextInt();
+            System.out.println("Enter no of query:");
             int q=sk.nextInt();
             long totsum=0;
             for(int j=1;j<=q;j++){
+                System.out.println("For Query "+j);
                 int typ=sk.nextInt();
                 int l=sk.nextInt();
                 int r=sk.nextInt();
@@ -28,7 +30,8 @@ public class InfyArrayonetwotypeQuery {
                 }
 
             }
-            System.out.println(totsum);
+
+            System.out.println("Total sum"+totsum);
 
 
 
